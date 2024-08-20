@@ -1,0 +1,13 @@
+<!-- user-profile.component.html -->
+<div class="profile-container">
+    <h2>User Profile</h2>
+    <div class="user-profile">
+        <h1>User Profile</h1>
+        <p><strong>Username:</strong> {{ username }}</p>
+        <p><strong>Posts Count:</strong> {{ postsCount }}</p>
+        <p><strong>Comments Count:</strong> {{ commentsCount }}</p>
+        <p><strong>Last Seen Post Time:</strong> {{ lastSeenPostTime }}</p>
+      </div>
+      <button (click)="logout()" class="logout-button">Logout</button>
+  </div>
+  
